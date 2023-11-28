@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivitas Akademika</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+        }
+
+        .person {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sivitas Akademika</h1>
+    </header>
+
+    <section>
+        <div class="person">
+            <h2>Nama Mahasiswa/Dosen</h2>
+            <p>Asal Prodi: Prodi ABC</p>
+            <p>Status: Mahasiswa/Dosen</p>
+            <p>Jenis Kendaraan: Motor</p>
+            <p>No Polisi: ABC 1234</p>
+            <p>Merk: Yamaha</p>
+        </div>
+
+        <div class="person">
+            <h2>Nama Mahasiswa/Dosen 2</h2>
+            <p>Asal Prodi: Prodi XYZ</p>
+            <p>Status: Mahasiswa/Dosen</p>
+            <p>Jenis Kendaraan: Mobil</p>
+            <p>No Polisi: XYZ 5678</p>
+            <p>Merk: Toyota</p>
+        </div>
+    </section>
+    
+        <div class="person">
+            <h2>Nama Mahasiswa/Dosen</h2>
+            <!-- Informasi lainnya -->
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <label for="stnk">Upload STNK:</label>
+                <input type="file" name="stnk" id="stnk">
+                <input type="submit" value="Upload">
+            </form>
+        </div>
+        
+        <!-- Informasi untuk orang lain jika diperlukan -->
+    </section>
+
+</body>
+</html>
